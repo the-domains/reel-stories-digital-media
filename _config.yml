@@ -1,28 +1,40 @@
-name: Reel Stories Digital Media
 favicon: null
-layout_spectrum: 0.41137880156747997
-typography_spectrum: 0.17624707473441958
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Reel Stories Digital Media
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
-  brandColors:
-    - '#E0FBFC'
-    - '#C2DFE3'
-    - '#9DB4C0'
-    - '#5C6B73'
-    - '#253237'
+  saturation: 0.1183673604391515
   brandStrength: 0.7025972558185458
   lightness: 0.7631758502684534
-  saturation: 0.11836736043915153
-  rhythmicContrast: 0.28452457999810576
-purpose: []
+  brandColors:
+    - '#09070A'
+    - '#BCBCBE'
+    - '#EDECED'
+    - '#71604C'
+    - '#CC8359'
+  rhythmicContrast: 0.2845245799981058
+typography_spectrum: 0.1616541
+layout_spectrum: 0.8952738
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
